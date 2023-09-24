@@ -7,13 +7,14 @@ const App = () => {
   return (
     <div className="App">
       {/* CelestialSelector component */}
-      <div className="CelestialSelector">
-        <CelestialSelector />
-      </div>
+
 
       {/* Canvas component */}
       <div className="CanvasContainer">
         <Canvas />
+      </div>
+      <div className="CelestialSelector">
+        <CelestialSelector />
       </div>
     </div>
   );

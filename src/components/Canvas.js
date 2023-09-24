@@ -202,16 +202,12 @@ function Canvas() {
 
     drawSolarSystem();
     return () => {
-      // Cleanup code (e.g., remove event listeners) if needed
     };
   }, []);
 
   return (
-    <canvas
+    <canvas 
       ref={canvasRef}
-      style={{
-        backgroundColor: "black",
-      }}
     ></canvas>
   );
 }
